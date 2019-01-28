@@ -1,6 +1,12 @@
 package com.zphone.zphoneapp;
 
-public class Phone {
+import java.io.Serializable;
+
+public class Phone implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3L;
 	private String sku;
 	private String imei;
 	private float price;
